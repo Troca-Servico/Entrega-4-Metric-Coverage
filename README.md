@@ -1,6 +1,6 @@
 # Teste METRICS E COVERAGE
 
-Este teste avalia a porcentagem do código-fonte que é abrangida pelos testes, proporcionando uma medida crucial conhecida como cobertura de código. Essa métrica desempenha um papel fundamental ao identificar áreas não testadas, permitindo uma avaliação mais precisa da eficácia dos testes aplicados. No contexto específico deste teste, a meta de cobertura estabelecida é de 30% para as classes, o que significa que a cobertura deverá ser sobre as classes nas quais os testes devem ser exercidos.
+Este teste ocorre a validadção por meio da % do código-fonte que é abrangida pelos testes, proporcionando uma medida crucial conhecida como cobertura de código. Essa métrica desempenha um papel fundamental ao identificar áreas não testadas, permitindo uma avaliação mais precisa da eficácia dos testes aplicados. No contexto específico deste teste, a meta de cobertura estabelecida é de 30% para as classes, o que significa que a cobertura deverá ser sobre as classes nas quais os testes devem ser exercidos.
 
  ![image](https://github.com/Troca-Servico/Entrega-4-Metric-Coverage/assets/111398446/0f2c92ed-0d29-4718-8bcf-5364c95e06e8)
 
