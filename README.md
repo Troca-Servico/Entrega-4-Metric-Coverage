@@ -5,14 +5,14 @@ Este teste ocorre a validadção por meio da % do código-fonte que é abrangida
  ![image](https://github.com/Troca-Servico/Entrega-4-Metric-Coverage/assets/111398446/0f2c92ed-0d29-4718-8bcf-5364c95e06e8)
 
 ## View
-Os resultados dos testes são altamente positivos, demonstrando que as classes AppView, Perfil e Serviço estão operando de acordo com as expectativas. Os métodos demonstraram uma manipulação precisa das entradas simuladas, entregando saídas apropriadas. A execução bem-sucedida dos testes JUnit para essas classes valida de forma eficaz a funcionalidade geral da aplicação. Esses resultados reforçam a confiança na integridade e desempenho do sistema.
+
+Os resultados dos testes são satisfatorios, demonstrando que as classes AppView, Perfil e Serviço estão operando de acordo com as expectativas. Os métodos demonstraram uma manipulação precisa das entradas simuladas dos testes realizados. A execução bem-sucedida dos testes JUnit para essas classes valida de forma eficaz a funcionalidade geral da aplicação.
 
  ![image](https://github.com/Troca-Servico/Entrega-4-Metric-Coverage/assets/111398446/95590b9f-440b-4337-82e3-aff02d9cbe88)
 
 
 ## Teste de Conexão – dbConnection
 
-Avaliação do Teste de Conexão – dbConnection
 Inicialmente, o teste enfrentou um problema de configuração, uma vez que estava comparando `` Connection expResult = null; com Connection result = instance.getConnection(); usando assertEquals(expResult, result);``. Isso resultou em falhas, a menos que ``instance.getConnection() também retornasse null``. Para garantir o sucesso da conexão, foi necessário realizar a comparação utilizando assertNotEquals ou assertNotNull. Esta correção visa evitar falsos positivos e assegurar que a validação da conexão seja realizada de maneira adequada, contribuindo para a confiabilidade do teste e a precisão na detecção de falhas na conexão do banco de dados.
 
 ![image](https://github.com/Troca-Servico/Entrega-4-Metric-Coverage/assets/111398446/6b27a1c4-4c70-4bdc-8246-0726669a487d)
@@ -20,11 +20,11 @@ Inicialmente, o teste enfrentou um problema de configuração, uma vez que estav
 
 ## Perfil – dbPerfil
 
-O sistema oferece funcionalidades para cadastrar, visualizar, atualizar e excluir perfis, armazenando as informações de forma segura em um banco de dados MySQL. São implementados testes automatizados com o objetivo de assegurar o correto funcionamento das operações de salvar, buscar, atualizar e excluir perfis, contribuindo assim para a robustez e confiabilidade do sistema
+O sistema oferece as funcionalidades para cadastrar, visualizar, atualizar e excluir perfis, armazenando as informações de forma segura no nosso banco de dado MySQL "trocaservico". São implementados testes automatizados com o objetivo de assegurar o correto funcionamento das operações de salvar, buscar, atualizar e excluir perfis, contribuindo assim para a robustez e confiabilidade do sistema
 
 ## Servico – dbServico
 
-Os testes realizados para a classe foram bem-sucedidos, apontando para uma implementação precisa da conexão com o banco de dados e das operações CRUD. Evidencia-se que a classe é capaz de interagir de maneira eficaz com o banco de dados, garantindo o salvamento e recuperação adequados das informações relacionadas aos serviços. 
+Os testes realizados para a classe foram bem-sucedidos, apontando para uma implementação precisa da conexão com o banco de dados e das operações CRUD. As classe são capazes de interagir de maneira eficaz com o banco de dados, garantindo o salvamento e recuperação adequados das informações relacionadas aos serviços. 
 
 ![image](https://github.com/Troca-Servico/Entrega-4-Metric-Coverage/assets/111398446/5cdba81b-4f02-4b3a-bfe1-77bad0c413a0)
 
